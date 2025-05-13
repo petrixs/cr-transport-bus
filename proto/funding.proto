@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package transport;
+
+option go_package = "github.com/yourorg/transport-bus/internal/transport;transport";
+
+// Сообщение о ставке фандинга
+message FundingRate {
+  string exchange = 1;
+  string symbol = 2;
+  double rate = 3;
+  int64 timestamp = 4;
+}
+
+// Сообщение о настройках минимального фандинга
+message MinFundingSettings {
+  string symbol = 1;
+  double min_rate = 2;
+} 
