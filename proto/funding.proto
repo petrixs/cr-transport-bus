@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package transport;
 
-option go_package = "github.com/yourorg/transport-bus/internal/transport;transport";
+option go_package = "github.com/petrixs/cr-transport-bus/proto;proto";
 
 // Сообщение о ставке фандинга
 message FundingRate {
