@@ -1,4 +1,4 @@
-module github.com/petrixs/transport-bus
+module github.com/petrixs/cr-transport-bus
 
 go 1.24.2
 
