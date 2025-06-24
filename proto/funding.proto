@@ -10,6 +10,8 @@ message FundingRate {
   string symbol = 2;
   double rate = 3;
   int64 timestamp = 4;
+  double volume_24h = 5;      // Объем за 24 часа в базовой валюте
+  double volume_usdt_24h = 6; // Объем за 24 часа в USDT
 }
 
 // Сообщение о настройках минимального фандинга
